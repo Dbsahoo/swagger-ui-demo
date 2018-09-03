@@ -4,16 +4,17 @@ Sample project demonstrating how to bootstrap a swagger site and host it on Aero
 
 ## Steps
 
-1. Clone or download this repo
+1. [Download](https://github.com/aerobatic/swagger-ui-demo/archive/master.zip) this repo and unzip
 2. Run `aero create` or `aero create -n your-site-name` from the root of the repo
 3. `npm install`
-4. `aero deploy`
+4. `npm run build`
+5. `aero deploy`
 
 ## Connect to swagger definition
 
-The demo uses the sample Pet Store API. To install your own API definition, you can use one of the following 2 techniques:
+The demo uses the sample [Pet Store API](http://petstore.swagger.io/v2/swagger.json). To install your own API definition, you can use one of the following 2 techniques:
 
-- Point to the swagger JSON definition via a remote URL
+- Package the swagger JSON file in the website app bundle:
 
   ```js
   import petStoreSwagger from "./petstore-swagger.json";
@@ -24,7 +25,7 @@ The demo uses the sample Pet Store API. To install your own API definition, you 
   });
   ```
 
-- Place the swagger JSON file within this project and import it directly
+- Download the JSON file from a remote URL:
 
   ```js
   SwaggerUI({
