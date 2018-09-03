@@ -1,5 +1,5 @@
 node_modules
-.vscode
+.vscode/
 build
 aero-deploy.tar.gz
 aero-debug.log
