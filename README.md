@@ -1,6 +1,6 @@
 # Aerobatic Swagger UI Demo
 
-Sample project demonstrating how to bootstrap a swagger site and host it on Aerobatic. View the live demo at https://swagger-ui-demo.aerobaticapp.com/. The [companion blog post](https://www.aerobatic.com/blog/hosting-swagger-api-documentation) goes into more detail.
+Sample project demonstrating how to bootstrap a swagger site and host it on Aerobatic. View the live demo at https://swagger-ui-demo.aerobaticapp.com/. The [companion blog post](https://www.aerobatic.com/blog/hosting-swagger-api-documentation) goes into more detail. A simple React shell is bootstrapped using [create-react-app](https://github.com/facebook/create-react-app).
 
 ## Steps
 
