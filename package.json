@@ -1,5 +1,5 @@
 {
-  "name": "swagger-ui-dem",
+  "name": "swagger-ui-demo",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -14,9 +14,6 @@
     "eject": "react-scripts eject"
   },
   "devDependencies": {
-    "proptypes": "^1.1.0",
-    "react-redux": "^5.0.7",
-    "redux": "^4.0.0",
     "swagger-ui": "^3.18.2"
   }
 }

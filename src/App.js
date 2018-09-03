@@ -23,7 +23,7 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src="/swagger-logo.png" className="App-logo" alt="logo" />
-          <h1 className="App-title">My API Documentation</h1>
+          <h1 className="App-title">Aerobatic Swagger Demo</h1>
         </header>
         <div id="ui" />
       </div>
